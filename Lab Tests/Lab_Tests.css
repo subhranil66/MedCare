@@ -1,0 +1,382 @@
+body{
+    padding: 0 ;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* start nav bar coding*/
+
+a{
+    color: inherit;
+}
+
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #22157B;
+}
+
+#logo-con{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    margin-top: 2.5px;
+    box-shadow:  0px 0px 10px grey;
+    float: left;
+    margin-left: 20px;
+    background-image: url(../images/med3.png);
+    background-size: cover;
+}
+#brand-name-con{
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+    padding: 12px;
+}
+
+#brand-name{
+    font-size: 30px;
+    font-family: 'Baloo Chettan', cursive;
+    font-weight: bold;
+    color: #ffff;
+}
+
+#right-con{
+    float: left;
+    width: 50%;
+    height: 60px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+#item-con{
+    list-style-type: none;
+}
+#item-con li{
+    display: inline;
+    margin-left: 20px;
+    padding: 18px;
+}
+
+#item-con li:hover{
+    background-color: #5B48D9;
+}
+a{
+    text-decoration: none;
+}
+#item{
+    font-size: 24px;
+    font-family: 'Baloo Chettan', cursive;
+    font-family: 'Amaranth', sans-serif;
+    color: #ffff;
+    font-weight: bold;
+}
+
+#login-signup-con{
+    float: right;
+    margin-right: 40px;
+    margin-top: 43px;
+}
+#login-signup-con ul{
+    text-decoration: none;
+    padding: 8px;
+}
+
+#login-signup-con ul li{
+    display: inline;
+    padding: 10px;
+}
+
+#login-signup-con ul li a{
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffff;
+    font-family: cursive;
+}
+#login-signup-con ul li:hover{
+    
+    background-color: #5B48D9;
+}
+
+
+/* start search container coding*/
+
+#search-con{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #5B48D9;
+}
+#search-con input[name="search-location"]{
+    
+    height: 80%;
+    width: 200px;
+    float: left;
+    margin-left: 30%;
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px;
+    font-family: FontAwesome;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    border-right: 2px solid #7F7F7F;
+   
+}
+#search-con input[name="search-product"]{
+    
+    height: 80%;
+    width: 370px;
+    float: left;
+    margin-left: 0%;
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px;
+    font-family: FontAwesome;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+
+/* start section coding*/
+
+#section{
+    height: 550px;
+    width: 1180px;
+    background-color: #004f99;
+    margin-top: 125px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+#lab{
+    height: 400px;
+    width: 350px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 80px 20px;
+    background-clip: content-box;
+    padding: 4px;
+    background: #1abc9c;
+    
+}
+
+#lab img{
+    width: 100%;
+    height: 100%;
+}
+
+#pic{
+    width: 350px;
+    height: 400px;
+}
+
+#slideranimation{
+       position: relative;
+       width: 3540px;
+        height: 100%;
+       animation-name: slideranimation;
+       animation-duration: 21s;
+       animation-iteration-count: infinite;
+}
+
+@keyframes slideranimation{
+     0%{
+	    left: 0px;
+	 }
+	 12%{
+	     left: 0px;
+	 }
+	 14%{
+	     left: -390px;
+	 }
+	 26%{
+	     left: -390px;
+	 }
+	 28%{
+	     left: -780px;
+	 }
+	 40%{
+	     left: -780px;
+	 }
+	 42%{
+	     left: -1170px;
+	 }
+	 54%{
+	     left: -1170px;
+	 }
+	 56%{
+	     left: -1560px;
+	 }
+     68%{
+          left: -1560px;
+        }
+     70%{
+          left: -1950px;
+     }
+    82%{
+          left: -1950px;
+     }
+    84%{
+          left: -2340px;
+     }
+    98%{
+          left: -2340px;
+        }
+     100%{
+          left: 0px;
+     }
+}
+
+#footer{
+    height: 250px;
+    width: 100%;
+    border: 1px solid;
+    float: left;
+    background-color: #22157B;
+}
+
+#fline{
+    font-style: italic;
+    padding: 50px;
+}
+
+#ficons{
+    padding: 10px;
+    margin-left: 600px;
+    float: left;
+   /* border: 1px solid red;*/
+}
+
+#fstatements{
+    margin-left: 1000px;
+    float: left;
+    padding: 5px;
+    margin-top: -120px;
+    margin-right: 50px;
+}
+
+#login{
+    width:300px;
+    height:400px;
+    background-color: #5B48D9;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px; 
+    display: none;
+    box-shadow: 0 10px 10px #ccc;
+}
+#login input{
+    width:80%;
+}
+#login input:hover{
+    box-shadow: 3px 5px 10px #ddd;
+}
+#login button:hover{
+    box-shadow: 3px 5px 10px #ddd;
+}
+#login .submit{
+    width:30%;
+}
+#login input[type='text'],input[type='password']
+{
+    padding: 10px;
+    border: none;
+    margin: 10px 0;
+}
+#login .submit
+{
+    padding: 5px;
+    border: none;
+    margin: 10px 0;
+    font-family: 'Lobster', cursive;
+}
+#login h1{
+    color: #00ff04;
+    font-family: 'Lobster', cursive;
+}
+#login ::placeholder{
+    color:skyblue;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.icon{
+    padding: 9px;
+    background-color: aqua;
+    color: white;
+}
+#signup{
+    width:300px;
+    height:400px;
+    background-color: #5B48D9;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px; 
+    display: none;
+    box-shadow: 0 10px 10px #ccc;
+}
+#signup input{
+    width:80%;
+}
+#signup .submit{
+    width:30%;
+}
+#signup input[type='text'],input[type='password'],input[type='email']
+{
+    padding: 10px;
+    border: none;
+    margin: 10px 0;
+}
+#signup .submit
+{
+    padding: 5px;
+    border: none;
+    margin: 10px 0;
+    font-family: 'Lobster', cursive;
+}
+#signup h1{
+    color: #00ff04;
+    font-family: 'Lobster', cursive;
+}
+#signup ::placeholder{
+    color:skyblue;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+#signup input:hover{
+    box-shadow: 3px 5px 10px #ddd;
+}
+#signup button:hover{
+    box-shadow: 3px 5px 10px #ddd;
+}
+#effect{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0 0 0);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 30px;
+}
+.icon:hover{
+    box-shadow: 3px 5px 10px #ddd;
+}

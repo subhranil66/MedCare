@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab Tests</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Baloo+Chettan|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Lab_Tests.css">
+    
+</head>
+<body id="webpage">
+
+    <div id="webpage">
+        <nav id="navbar">
+            <a href="./../index.html"><div id="logo-con"></div></a>
+            <div id="brand-name-con"><span id="brand-name"><a href="./../index.html">TakeCare Med</a></span></div>
+            
+            <div id="right-con">
+            
+                <ul id="item-con">
+                    <li id="item-list"><a href="./../index.html" id="item">Medicines</a></li>
+                    <li id="item-list"><a href="Lab_Tests.html" id="item">Lab Tests</a></li>
+                    <li id="item-list"><a href="./../Ask Doctor/ask_doctor.html" id="item">Ask Doctor</a></li>
+                    <li id="item-list"><a href="./../Ayurveda/ayurveda.html" id="item">Ayurveda</a></li>
+                </ul>
+            </div>
+            
+            <div id="login-signup-con">
+            
+                <ul>
+                    <i class="fa fa-sign-in" style="font-size: 18px; margin-right: 6px; color: #ffff"></i>
+                    <li id="item-list" onclick="login()"><a href="#" id="item">Login </a></li><span style="color: #fff; font-weight: bold;margin-left: 3px;">| </span>
+                    <i class=""><li id="item-list" onclick="signup()"><a href="#" id="item">SignUp</a></li></i>
+                    <a href="#"><i class="fa fa-shopping-cart" style="font-size: 20px; margin-right: 6px; color: #ffff"></i></a>
+                </ul>
+            </div>
+            
+        </nav> 
+        <div id="search-con">
+            <input type="text" name="search-location" placeholder="&#xf041 Enter Your City">
+            <input type="text" name="search-product" placeholder="Search for Medicines and Health Products"><i class="fa fa-search" style="margin-left: -40px; margin-top: 20px; color: #616165;"></i>
+        </div>
+        <div style="float: left; margin-top: 20px;margin-left: 20px;color: #484750; font-size: 20px; font-weight: bold; font-family: cursive;"><span>LAB TESTS</span></div>
+        
+        <div id="section">
+            <div id="slideranimation">
+            <div id="lab">
+               <img src="photos/1.jpg" id="pic">
+            </div>
+            <div id="lab">
+            <img src="photos/2.jpg" id="pic">
+            </div>
+            <div id="lab">
+            <img src="photos/3.jpg" id="pic">
+            </div>
+                <div id="lab">
+               <img src="photos/4.jpg" id="pic">
+            </div>
+            <div id="lab">
+            <img src="photos/5.jpg" id="pic">
+            </div>
+            <div id="lab">
+            <img src="photos/6.jpg" id="pic">
+            </div>
+                <div id="lab">
+               <img src="photos/7.jpg" id="pic">
+            </div>
+            <div id="lab">
+            <img src="photos/9.jpg" id="pic">
+            </div>
+            <div id="lab">
+            <img src="photos/8.jpg" id="pic">
+            </div>
+          </div>
+        </div>
+        
+        <div id="footer">
+        <div id="fline">
+            <p><font color="white"><b>&copy; All rights are reserved by TakeCare Med.</b></font></p>
+            </div>
+            <div id="ficons">
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox"><i class="fa fa-google-plus" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+            </div>
+            <div id="fstatements">
+                <p><b><font style="color: red;">U CAN TRUST ME</font></b><br><br><font style="color: white;">TakeCare Med, India Ki Pharmacy, is brought to you by the Samanta & Company – one of India’s most trusted pharmacies, with experienced people in dispensing quality medicines.</font></p>
+            </div>
+        </div>
+    </div>
+    <div id="effect">
+        <i class="fa fa-close" style="font-size: 35px; color:red;float: right;cursor: pointer" onclick="back()"></i>
+    </div>
+    <div id="login">
+        <h1>Login Here !</h1><br><br>
+        <form id="login-form" autocomplete="off">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="username" placeholder="Username" required title="Enter your name">
+            <br><br>
+            <i class="fa fa-key icon"></i>
+            <input type="password" name="password" placeholder="Password" required title="Enetr your password">
+            <br><br>
+            <button type="submit" value="submit" class="submit" title="Submit">Submit</button>
+        </form>
+    </div>
+    <div id="signup" onblur="vanish_signup()">
+        <h1>SignUp Here !</h1><br><br>
+        <form id="login-form" autocomplete="off">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="username" placeholder="Username" required title="Enter your name">
+            <br>
+            <i class="fa fa-envelope icon"></i>
+            <input type="email" name="email" placeholder="Email ID" required title="Enter your email id">
+            <br>
+            <i class="fa fa-mobile-phone icon"></i>
+            <input type="text" name="mobile" placeholder="Mobile No" required title="Enter your mobile no">
+            <br>
+            <i class="fa fa-key icon"></i>
+            <input type="password" name="password" placeholder="Password" required title="Enter your password">
+            <br>
+            <button type="submit" value="submit" class="submit" title="submit">Submit</button>
+        </form>
+    </div>
+<script type="text/javascript" src="Lab_Tests.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ask Doctor</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Baloo+Chettan|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="ask_doctor.css">
+    
+</head>
+    <body id="webpage">
+
+    <div id="webpage">
+        <nav id="navbar">
+            <a href="./../index.html"><div id="logo-con"></div></a>
+            <div id="brand-name-con"><span id="brand-name"><a href="./../index.html">TakeCare Med</a></span></div>
+            
+            <div id="right-con">
+            
+                <ul id="item-con">
+                    <li id="item-list"><a href="./../index.html" id="item">Medicines</a></li>
+                    <li id="item-list"><a href="./../Lab Tests/Lab_Tests.html" id="item">Lab Tests</a></li>
+                    <li id="item-list"><a href="ask_doctor.html" id="item">Ask Doctor</a></li>
+                    <li id="item-list"><a href="./../Ayurveda/ayurveda.html" id="item">Ayurveda</a></li>
+                </ul>
+            </div>
+            
+            <div id="login-signup-con">
+            
+                <ul>
+                    <i class="fa fa-sign-in" style="font-size: 18px; margin-right: 6px; color: #ffff"></i>
+                    <li id="item-list" onclick="login()"><a href="#" id="item">Login </a></li><span style="color: #fff; font-weight: bold;margin-left: 3px;">| </span>
+                    <i class=""><li id="item-list" onclick="signup()"><a href="#" id="item">SignUp</a></li></i>
+                    <a href="#"><i class="fa fa-shopping-cart" style="font-size: 20px; margin-right: 6px; color: #ffff"></i></a>
+                </ul>
+            </div>
+            
+        </nav> 
+        <div id="search-con">
+            <input type="text" name="search-location" placeholder="&#xf041 Enter Your City">
+            <input type="text" name="search-product" placeholder="Search for Medicines and Health Products"><i class="fa fa-search" style="margin-left: -40px; margin-top: 20px; color: #616165;"></i>
+        </div>
+        
+        <div id="section">
+            <div id="para1"><font style="font-size: 40px;"><b>Talk now to feel better</b></font><br><br><font style="font-size: 30px;"><b>#every <font style="color:blue;">question</font> matters</b></font><br><br><br><font style="color: gray;font-size: 25px;"><b>Now chat with a doctor as you<br> would with your friend.</b></font><br><br><br><div id="box1"><b>Start Chat</b></div></div>
+            <div id="box2">
+                <div id="slideranimation">
+                <div id="pic"><img src="pics/pregnancy.svg" id="img"></div>
+                <div id="pic"><img src="pics/arthritis.svg" id="img"></div>
+                <div id="pic"><img src="pics/stressed.svg" id="img"></div>
+            </div>
+            </div>
+            <div id="box3">
+                <div id="pic1">
+            <img src="pics/confidential.svg" id="img1">
+                <br><br><br><br>
+                    <font style="font-size: 25px;font-family: sans-serif;"><center><b>100% Confidential</b></center></font>
+                    <br>
+                    <font style="font-family: sans-serif;font-size: 15px;"><center>All advice & consultations are completely confidential. You can also delete chats whenever you want.</center></font>
+                </div>
+            <div id="pic1">
+            <img src="pics/certified.svg" id="img1">
+                <br><br><br><br>
+                    <font style="font-size: 25px;font-family: sans-serif;"><center><b>Certified Doctors</b></center></font>
+                    <br>
+                    <font style="font-family: sans-serif;font-size: 15px;"><center>We offer quality healthcare through our network of certified and experienced doctors.</center></font></div>
+        <div id="pic1">
+            <img src="pics/convenience.svg" id="img1">
+                <br><br><br><br>
+                    <font style="font-size: 25px;font-family: sans-serif;"><center><b>Convenience</b></center></font>
+                    <br>
+                    <font style="font-family: sans-serif;font-size: 15px;"><center>Forget the hassle of long queues and rush hour. Seek expert opinion anytime, anywhere.</center></font></div>
+        <div id="pic1">
+            <img src="pics/costEffective.svg" id="img1">
+                <br><br><br><br>
+                    <font style="font-size: 25px;font-family: sans-serif;"><center><b>Cost Effective</b></center></font>
+                    <br>
+                    <font style="font-family: sans-serif;font-size: 15px;"><center>We provide medical assistance on non urgent queries for free. Fee starting at ₹50 for faster response to queries.</center></font></div>
+            </div>
+            <div id="box4">
+                <h1 style="font-family: serif;color: dimgray;"><center><b>How Online Doctor Consultation Works?</b></center></h1><br><br><br><br><br>
+            </div>
+            <div id="pic2">
+                <img src="pics/How_it_Works_1.svg">
+                </div>
+            <div id="para2">
+            <font style="font-size: 70px;font-family: sans-serif;color: dimgrey;">01</font>
+           </div>
+            <div id="line2">
+                <font style="font-family: cursive;font-size: 25px;"><b>Start a Session</b></font><br><br><font style="font-family: sans-serif;">Select the type of category you would like<br> to consult with the doctor.
+                </font>
+            </div>
+            <div id="pic3">
+                <img src="pics/How_it_Works_2.svg">
+                </div>
+            <div id="para3">
+            <font style="font-size: 70px;font-family: sans-serif;color: dimgrey;">02</font>
+           </div>
+            <div id="line3">
+                <font style="font-family: cursive;font-size: 25px;"><b>
+Tell us what’s troubling you</b></font><br><br><font style="font-family: sans-serif;">Type in your concern and attach<br> prescription, lab reports if any. Help doctor<br> understand your case better.
+                </font>
+            </div>
+            <div id="pic4">
+                <img src="pics/How_it_Works_3.svg">
+                </div>
+            <div id="para4">
+            <font style="font-size: 70px;font-family: sans-serif;color: dimgrey;">03</font>
+           </div>
+            <div id="line4">
+                <font style="font-family: cursive;font-size: 25px;"><b>
+Connect with the doctor</b></font><br><br><font style="font-family: sans-serif;">A doctor is auto-assigned to you that best<br> matches your concern. You will get a<br> diagnosis and treatment for your condition.
+
+                </font>
+            </div>
+            <div id="pic5">
+                <img src="pics/How_it_Works_4.svg">
+                </div>
+            <div id="para5">
+            <font style="font-size: 70px;font-family: sans-serif;color: dimgrey;">04</font>
+           </div>
+            <div id="line5">
+                <font style="font-family: cursive;font-size: 25px;"><b>
+Follow up with your doctor</b></font><br><br><font style="font-family: sans-serif;">Still, need more clarity? You can follow up<br> with the doctor even after your chat<br> window closes.
+                </font>
+            </div>
+            <div id="happy">
+            <span style="font-size: 25px;font-family: sans-serif;"><center><b>Our Happy Customers</b></center></span>
+            </div>
+            
+            <div id="para6">
+                <div id="slideranimation1">
+            <span style="font-size: 18px;" id="line6"><center>I installed the app and went for a free consultation with a dietician. The advice given by Dr. Mirza was simply<br> great. He shared a detailed diet chart and exercises with me which was easy to incorporate into my hectic<br> schedule.<br><br><b>Aarohi</b></center></span>
+                <span style="font-size: 18px;" id="line6"><center>Best app for consultation and the most effective way to connect with the doctor from anywhere.<br> The doctor replies with great detail and is extremely polite. One can also come back to consult the same doctor anytime.<br><br><b>Ronak</b></center></span>
+                     <span style="font-size: 18px;" id="line6"><center>Initially, I was a little skeptical of consulting a doctor online. But the consultation turned out to be honest and<br> cool, the doctor's behavior was friendly. The best part is that I saved so much time and money!<br><br><b>Aarzoo</b></center></span>
+            </div>
+            </div>
+            <span id="icons"><i class="fa fa-angle-left" aria-hidden="true" style="margin-right: 30px;" onclick="backward()"></i>
+            <i class="fa fa-angle-right" aria-hidden="true" onclick="forward()"></i></span>
+        </div>
+        
+        <div id="footer">
+        <div id="fline">
+            <p><font color="white"><b>&copy; All rights are reserved by TakeCare Med.</b></font></p>
+            </div>
+            <div id="ficons">
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox"><i class="fa fa-google-plus" aria-hidden="true" style="font-size: 20px; margin-right: 6px; color: #ffff; padding: 5px;"></i></a>
+            </div>
+            <div id="fstatements">
+                <p><b><font style="color: red;">U CAN TRUST ME</font></b><br><br><font style="color: white;">TakeCare Med, India Ki Pharmacy, is brought to you by the Samanta & Company – one of India’s most trusted pharmacies, with experienced people in dispensing quality medicines.</font></p>
+            </div>
+        </div>
+    </div>
+    <div id="effect">
+        <i class="fa fa-close" style="font-size: 35px; color:red;float: right;cursor: pointer" onclick="back()"></i>
+    </div>
+    <div id="login">
+        <h1>Login Here !</h1><br><br>
+        <form id="login-form" autocomplete="off">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="username" placeholder="Username" required title="Enter your name">
+            <br><br>
+            <i class="fa fa-key icon"></i>
+            <input type="password" name="password" placeholder="Password" required title="Enetr your password">
+            <br><br>
+            <button type="submit" value="submit" class="submit" title="Submit">Submit</button>
+        </form>
+    </div>
+    <div id="signup" onblur="vanish_signup()">
+        <h1>SignUp Here !</h1><br><br>
+        <form id="login-form" autocomplete="off">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="username" placeholder="Username" required title="Enter your name">
+            <br>
+            <i class="fa fa-envelope icon"></i>
+            <input type="email" name="email" placeholder="Email ID" required title="Enter your email id">
+            <br>
+            <i class="fa fa-mobile-phone icon"></i>
+            <input type="text" name="mobile" placeholder="Mobile No" required title="Enter your mobile no">
+            <br>
+            <i class="fa fa-key icon"></i>
+            <input type="password" name="password" placeholder="Password" required title="Enter your password">
+            <br>
+            <button type="submit" value="submit" class="submit" title="submit">Submit</button>
+        </form>
+    </div>
+<script type="text/javascript" src="ask_doctor.js"></script>
+
+</body>
+</html>
